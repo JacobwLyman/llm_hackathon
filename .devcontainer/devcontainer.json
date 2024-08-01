@@ -1,0 +1,23 @@
+{
+    "name": "Jupyter Dev Container",
+    "build": {
+        "dockerfile": "Dockerfile"
+    },
+    "mounts": [
+        "source=${localEnv:HOME}${localEnv:USERPROFILE}/.ssh/,target=/root/.ssh/,type=bind,consistency=cached"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    },
+    "forwardPorts": [8888],
+    "postCreateCommand": "pip install jupyter",
+    "settings": {
+        "python.pythonPath": "/usr/local/bin/python",
+        "jupyter.jupyterServerType": "local"
+    }
+}

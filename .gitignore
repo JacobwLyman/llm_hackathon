@@ -1,0 +1,4 @@
+.env
+knowledge_base/docs/*
+knowledge_base/rag_db/*
+.DS_Store
