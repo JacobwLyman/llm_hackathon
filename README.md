@@ -1,7 +1,7 @@
 
 # Project Setup:
 
-You can utilize this repository's [dev container](https://code.visualstudio.com/docs/devcontainers/containers) to reproduce and develop this project locally on your machine, regardless as to which operating system you are on.
+You can utilize this repository's [dev container](https://code.visualstudio.com/docs/devcontainers/containers) to reproduce and this project locally on your machine, regardless as to which operating system you are on.
 
 To set up the dev container, follow these steps:
 
@@ -26,4 +26,4 @@ To set up the dev container, follow these steps:
         - This should start building your dev container in the background. You'll notice a prompt (usually in the bottom right corner of VS Code) that you can click on to actively watch the logs of
 
     4) Once the build completes, you're in! You can now open VS Code's native terminal to operate within the container and actively work with and contribute to the `llm_hackathon` repository, just like you would do so normally on your local laptop/machine. 🙂
-    5) NOTE: From here, you will now need to follow the rest of the README instructions for installing any necessary dependencies for the project within the container environment, such as the `requirement.txt` file for Python dependencies.
+    5) Now that the dev container is running, open up a new terminal and run `pip install -r requirement.txt` to install all of the necessary Python dependencies.

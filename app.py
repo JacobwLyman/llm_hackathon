@@ -6,10 +6,9 @@ import time
 import openai
 import comet_llm
 
+# Set up environment variables
 load_dotenv('.env')
 comet_llm.init(api_key=os.getenv('COMET_API_KEY'), project='llm-hackathon')
-
-# Set up environment variables for OpenAI
 openai.api_key = os.getenv('OPENAI_API_KEY')
 
 # Load system prompt
