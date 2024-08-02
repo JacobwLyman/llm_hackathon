@@ -1,7 +1,7 @@
 
-# Setup Steps:
+# Project Setup:
 
-You can utilize this repository's [dev container](https://code.visualstudio.com/docs/devcontainers/containers) to reproduce this project locally on your machine, regardless as to which operating system you are on.
+You can utilize this repository's [dev container](https://code.visualstudio.com/docs/devcontainers/containers) to reproduce and develop this project locally on your machine, regardless as to which operating system you are on.
 
 To set up the dev container, follow these steps:
 
